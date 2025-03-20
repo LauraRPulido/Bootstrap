@@ -17,11 +17,36 @@
     <!-- Lo importante de Bootstrap son los layouts. Los Breakpoints sirven para el responsive y están jerarquizados en tamaños. Se pueden modificar pero normalmente no se hace-->
 
     <!-- Bootstrap también tiene containers definidos con los breakpoints podemos definir la anchura y el responsive -->
+
+    <!-- Hacer tres columnas copiando de la guía de bootstrap en la sección de grid -->
     
 </head>
 <body>
-    <div class="container-xl">
+    <!-- Tenemos container, container-xl, container-fluid -->
+    <div class="container-fluid">
         <h1>Hola!!</h1>
+        <!-- Columnas. Si queremos hacer que para el responsive se pongan una debajo de otra. Para modificar columnas en el apartado de Columns. Se modifica la clase row. -->
+        <div class="container text-center">
+            <!-- Esta clase row se puede modificar con diferentes clases prehechas.
+             Vertical alignment: align-items-*(start,center,end).
+             También se pueden alinear cada col con align-self-* (start,center,end).
+             Horizontal alignment: Para las row justify-content-*(start,center,end,around,between,evenly ) -->
+             <!-- Bootstrap se organiza en 12 columnas. Por lo tanto podemos poner números de col para ver cuantas de ellas un col ocupa -->
+            <!-- Mini ejercicio -->
+            <div class="row">
+              <div class="col-6">
+                Column
+              </div>
+              <div class="col">
+                Column
+              </div>
+              <div class="col">
+                Column
+              </div>
+            </div>
+          </div>
     </div>
+
+    
 </body>
 </html>
