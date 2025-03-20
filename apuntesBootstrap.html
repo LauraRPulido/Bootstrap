@@ -47,6 +47,46 @@
           </div>
     </div>
 
-    
+    <!-- Lo que hacen las columnas cuando suman más de 12-->
+    <div class="container">
+      <div class="row">
+        <div class="col-9">.col-9</div>
+        <div class="col-4">.col-4<br>Since 9 + 4 = 13 &gt; 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.</div>
+        <div class="col-6">.col-6<br>Subsequent columns continue along the new line.</div>
+      </div>
+    </div>
+
+    <!-- Como hacer que las columnas tengan responsive. 
+     -->
+    <div class="container-fluid">
+      <div class="row justify-content-between">
+        <div class="col-12 col-md-6 col-lg-4">Hola</div>
+        <div class="col-12 col-md-6 col-lg-4">Clase</div>
+      </div>
+    </div>
+    <!-- Si quieres dejar espacios entre columnas y no justify-between. Se usa offset -->
+
+    <div class="container-fluid">
+      <div class="row justify-content-between">
+        <div class="col-12 col-md-6 .offset-md-2">Hola</div>
+        <div class="col-12 col-md-4">Clase</div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Javascript de Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
 </html>
