@@ -1,7 +1,8 @@
-/* h1{
-    color: rgb(90, 19, 105);
+.d-flex{
+    background-color: rgb(122, 18, 70);
 }
 
-.container-fluid{
-    background-color: rgb(197, 186, 247);
-} */
+.banner{
+    height: 100vh;
+    background-image: url(./img/banner.jpg) center center no-repeat / cover;
+}
