@@ -1,8 +1,11 @@
-.d-flex{
-    background-color: rgb(122, 18, 70);
+#banner {
+    background-image: url(./img/banner.jpg);
 }
 
-.banner{
-    height: 100vh;
-    background-image: url(./img/banner.jpg) center center no-repeat / cover;
+#planes{
+    background-color: #671e3d;
+}
+
+#trailers{
+    background-color: black;
 }
