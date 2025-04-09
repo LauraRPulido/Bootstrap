@@ -1,0 +1,75 @@
+header#header{
+    background-color: red;
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        font-weight: 700;
+        padding: 10px 20px;
+
+        &:last-child{
+          border: solid 1px white;  
+        }
+    }
+}
+
+section#banner{
+    background: url(./img/consola_mario.PNG) no-repeat center center / cover;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    h1{
+        font-size: 5rem;
+        font-weight: bold;
+        color: white;
+    }
+}
+
+section#consola{
+    display: flex;
+    background-color: aliceblue;
+    min-height: 40vh;
+    padding: 50px 0;
+
+    a{
+        text-decoration: none;
+        border: solid 1px black;
+        color: black;
+        padding: 10px 20px;
+
+    }
+    
+}
+
+section#joycons{
+    background-color: red;
+    color: white;
+    span > img{
+        height: 3rem;
+    }
+
+    h2{
+        font-weight: bold;
+        color: white;
+        font-size: 2.5rem;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        border: solid 1px white;
+        padding: 10px 20px;
+    }
+}
+
+section#novedades{
+    background-color: red;
+    h2{
+        color: white;
+    }
+}
+
+footer#footer{
+    background-color: red;
+    color: white;
+}
